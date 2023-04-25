@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_app/presentation/screens/home/home_screen.dart';
 
 import 'config/theme/app_theme.dart';
 
@@ -9,14 +10,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor: 2).getTheme(),
-      home:  Scaffold(
-        body: Center(
-          child: FilledButton(onPressed: (){}, child: Text('Ola')),
-        ),
+      home: const Scaffold(
+        body: HomeScreen(),
       ),
     );
   }
