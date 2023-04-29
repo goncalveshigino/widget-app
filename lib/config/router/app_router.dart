@@ -53,7 +53,7 @@ final appRouter = GoRouter(
     ),
 
      GoRoute(
-      path: '/snackbar',
+      path: '/snackbars',
       name: SnackbarScreen.name,
       builder: (context, state) =>const  SnackbarScreen(),
     ),
