@@ -32,7 +32,7 @@ const appMenuItems = <MenuItem> [
     icon: Icons.credit_card,
   ),
 
-  MenuItem(
+   MenuItem(
     title: 'Progress Indicators', 
     subtitle: 'Generales y controlados', 
     link: '/progress', 
@@ -58,6 +58,13 @@ const appMenuItems = <MenuItem> [
     subtitle: 'UIControlsScreen', 
     link: '/uicontrols', 
     icon: Icons.car_rental_outlined,
+  ),
+
+    MenuItem(
+    title: 'Page view', 
+    subtitle: 'Page View Screen', 
+    link: '/tutorial', 
+    icon: Icons.accessible_rounded,
   ),
 
 ];
