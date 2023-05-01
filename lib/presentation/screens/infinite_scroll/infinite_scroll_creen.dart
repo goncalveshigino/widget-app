@@ -36,6 +36,7 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
   }
 
   Future loadNextPage() async {
+    
     if (isLoading) return;
     isLoading = true;
     setState(() {});

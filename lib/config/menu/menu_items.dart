@@ -54,7 +54,7 @@ const appMenuItems = <MenuItem> [
   ),
 
     MenuItem(
-    title: 'CheckBox, Radius and others Tiles', 
+    title: 'CheckBox, Radius', 
     subtitle: 'UIControlsScreen', 
     link: '/uicontrols', 
     icon: Icons.car_rental_outlined,
